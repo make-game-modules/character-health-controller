@@ -1,7 +1,5 @@
 # 角色生命值控制器
 
-[English](https://github.com/make-game-modules/character-health-controller/blob/main/README.en.md)
-
 这个项目提供了一个 Unity 脚本，用于管理角色的生命值和受伤效果。当角色受伤时，它会启动一个定时器，并在定时器结束后调用 `DamageEffectController` 的 `StopDamageEffect` 方法以停止受伤效果。
 
 ## 如何安装
